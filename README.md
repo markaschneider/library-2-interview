@@ -59,7 +59,7 @@ Please sketch the **ActiveRecord models**, their relationships, and how your des
 
 ---
 
-### 4. 📦 A book can have multiple copies, each independently lendable
+### 4. 📦 (Optional) A book can have multiple copies, each independently lendable
 
 - Support modeling both:
   - The abstract concept of a **Book** (e.g., “The Hobbit” by Tolkien)
@@ -85,12 +85,16 @@ Please sketch the **ActiveRecord models**, their relationships, and how your des
   - Use ActiveRecord idioms
   - Efficient grouping and delivery
 
+---
+
 ### 6. 🔍 Basic book search by author, with availability info
 - Users can search books by partial author name (case-insensitive).
 
 - For each matching book:
   - Indicate if at least one copy is available
   - If all copies are checked out, show the soonest due date
+
+---
 
 🧠 Considerations
 - Use Rails best practices
